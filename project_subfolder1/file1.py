@@ -7,6 +7,10 @@ def square(n):
 print(square(6))
 
 print("square and cubes are printed")
+
+def areacircle(r):
+  return 3.14*(r**2)
+
 def evenno(x):
   if x%2==0:
      print(f"{x} is  even")
@@ -21,3 +25,4 @@ def squareforeven(x):
     print("exiting as x is not even")
 evenno(4)
 print(squareforeven(6))
+print(areacircle(4))
