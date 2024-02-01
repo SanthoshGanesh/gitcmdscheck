@@ -13,6 +13,9 @@ def squareforodd(x):
   else:
     print("exiting as x is not odd")
 
+def perimetercirle(x):
+  return 2*3.14*x
+
 print("square and cubes are printed")
 
 def areacircle(r):
@@ -35,3 +38,4 @@ print(squareforeven(6))
 print(areacircle(4))
 
 print(squareforodd(7))
+print(perimetercirle(4))
