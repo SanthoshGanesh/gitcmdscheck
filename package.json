@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.11.13"
+  },
+  "dependencies": {
+    "log4js": "^6.9.1"
+  }
+}
