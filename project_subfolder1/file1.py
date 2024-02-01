@@ -8,3 +8,7 @@ def square(n):
 print(square(6))
 
 print("square and cubes are printed")
+def quadrant(n):
+  return n**4
+
+print(quadrant(2))
