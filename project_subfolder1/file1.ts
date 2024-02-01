@@ -9,6 +9,12 @@ console.log("c is sum of a and b");
 else{
   console.log("c is not the sum of a and b")
 }
+if(b==c-a){
+  console.log("b is negation of a and c")
+}
+else{
+  console.log("b is negation of a and c")
+}
 var log4js = require('log4js');
 log4js.configure({
   appenders: {
