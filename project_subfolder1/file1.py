@@ -6,6 +6,13 @@ def square(n):
   return n**2
 print(square(6))
 
+def squareforodd(x):
+  if(x%2!=0):
+    print(f"{x} is odd so squaring")
+    return x**2
+  else:
+    print("exiting as x is not odd")
+
 print("square and cubes are printed")
 
 def areacircle(r):
@@ -26,3 +33,5 @@ def squareforeven(x):
 evenno(4)
 print(squareforeven(6))
 print(areacircle(4))
+
+print(squareforodd(7))
