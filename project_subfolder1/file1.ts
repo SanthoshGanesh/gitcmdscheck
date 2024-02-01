@@ -1,7 +1,14 @@
 console.log("A new file getting added for new branch");
-let a=40;
-let b=20;
+ a=40;
+ b=20;
+ let c=60;
 console.log("a/b", a/b)
+if(c===a+b){
+console.log("c is sum of a and b");
+}
+else{
+  console.log("c is not the sum of a and b")
+}
 var log4js = require('log4js');
 log4js.configure({
   appenders: {

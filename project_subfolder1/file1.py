@@ -13,4 +13,11 @@ def evenno(x):
   else:
     print(f"{x} is not even")
 
+def squareforeven(x):
+  if(x%2==0):
+    print(f"{x} is even so squaring")
+    return x**2
+  else:
+    print("exiting as x is not even")
 evenno(4)
+print(squareforeven(6))
