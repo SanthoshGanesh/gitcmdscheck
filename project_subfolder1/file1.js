@@ -7,5 +7,7 @@ if(a===2){
 else{
     console.log("b's value is 3");
 }
+g=80;
+console.log("g'value added to main",g)
 c=4;
 console.log("c ",c)
